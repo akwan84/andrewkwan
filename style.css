@@ -1,0 +1,112 @@
+#inner {
+    width:60%;
+    height: 100vh;
+    margin-left: 20%;
+    margin-top: 0vh;
+    float: left;
+}
+
+.navbar {
+    width: 10%;
+    height: 5vh;
+    float: right;
+    font-size: 1.5vh;
+    line-height: 5vh;
+    margin-top: 2.5vh;
+    margin-left: 1%;
+    border: 2px solid #66fcf1;
+    text-align: center;
+    border-radius: 15px;
+    transition: box-shadow 0.25s;
+    transition: font-size 0.25s;
+    color: #66fcf1;
+    font-family: "Oxanium", sans-serif;
+}
+
+.navbar:hover {
+    box-shadow: 0px 0px 10px #c5c6c7;
+    cursor: pointer;
+    font-size: 1.75vh;
+}
+
+#title {
+    width: 40%;
+    height: 10vh;
+    float: left;
+    line-height: 10vh;
+    font-size: 5vh;
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600;
+}
+
+#nav-container {
+    width: 100%;
+    height: 30vh;
+}
+
+#profile-pic {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50vh;
+    float: left;
+}
+
+#bio-paragraph {
+    height: 30vh;
+    float: right;
+    width: 65%;
+
+    position: relative;
+    animation: flyInRight 1.5s ease-out forwards; 
+}
+
+#bio-paragraph h2 {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600;
+    font-size: 7vh;
+    margin-top: 0%;
+    margin-bottom: 1vh;
+    color: white;
+}
+
+#bio-paragraph p {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600;
+    font-size: 2vh;
+    color: #c5c6c7;
+}
+
+.bio-logo {
+    margin-left: 0.5vh;
+    margin-top: 0.5vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+.bio-logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+body {
+    background-color: #1f2833;
+}
+
+@keyframes flyInRight {
+    from {
+        transform: translateX(100vw); /* Start off-screen to the right */
+    }
+    to {
+        transform: translateX(0); /* End at the original position */
+    }
+}
+
+@keyframes flyInLeft {
+    from {
+        transform: translateX(-100%); /* Start off-screen to the right */
+    }
+    to {
+        transform: translateX(0); /* End at the original position */
+    }
+}

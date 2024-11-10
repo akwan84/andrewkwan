@@ -23,7 +23,30 @@
     font-family: "Oxanium", sans-serif;
 }
 
+#resume {
+    width: 15%;
+    height: 5vh;
+    float: left;
+    font-size: 1.5vh;
+    line-height: 5vh;
+    margin-top: 1vh;
+    margin-left: 1%;
+    border: 2px solid #66fcf1;
+    text-align: center;
+    border-radius: 15px;
+    transition: box-shadow 0.25s;
+    transition: font-size 0.25s;
+    color: #66fcf1;
+    font-family: "Oxanium", sans-serif;
+}
+
 .navbar:hover {
+    box-shadow: 0px 0px 10px #c5c6c7;
+    cursor: pointer;
+    font-size: 1.75vh;
+}
+
+#resume:hover {
     box-shadow: 0px 0px 10px #c5c6c7;
     cursor: pointer;
     font-size: 1.75vh;
@@ -82,10 +105,11 @@
 }
 
 .bio-logo {
-    margin-left: 0.5vh;
-    margin-top: 0.5vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
     width: 5vh;
     height: 5vh;
+    float: left;
     transition: transform 0.25s;
 }
 
@@ -142,12 +166,20 @@
     border-radius: 20px;
     display: inline-block;
     margin-top: 3vh;
-    transition: box-shadow 0.25s;
+    transition: transform 0.25s;
 }
 
 .exp-section:hover {
+    transform: scale(1.02);
     box-shadow: 0px 0px 20px #c5c6c7;
     cursor: pointer;
+}
+
+.exp-section ul li {
+    color: #c5c6c7;
+    margin-left: 2%;
+    font-family: "Oxanium", sans-serif;
+    font-size: 1.5vh;
 }
 
 .role-title {
@@ -173,6 +205,18 @@
 
 #education {
     margin-top: 15vh;
+}
+
+#uwo {
+    cursor: default;
+}
+
+#uwo a {
+    color:#66fcf1;
+}
+
+#uwo a:hover {
+    color: white;
 }
 
 body {

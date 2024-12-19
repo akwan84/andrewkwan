@@ -20,7 +20,6 @@
                 <a href="#skills"><div class="navbar">Skills</div></a>
             </nav>
             <div id="bio">
-                <img src="image.jpg" id="profile-pic">
                 <div id="bio-paragraph">
                     <h2>Hi&#128075 I'm Andrew</h2>
                     <p>I am a 4th year Computer Science student at the University of Western Ontario. I am currently seeking full time software development opportunities where I can leverage my numerous skills to make meaningful contributions to the industry.</p>
@@ -75,18 +74,20 @@
                             <li>Deployed and tested services in Docker containers to ensure performance in a consistent environment, and speed up project initialization by 70%</li>
                             <li>Documented REST API endpoints using Swagger</li>
                         </ul>
-                        <div class="skill" style="margin-left: 3%">PHP</div>
-                        <div class="skill">Slim</div>
-                        <div class="skill">Docker</div>
-                        <div class="skill">PHPUnit</div>
-                        <div class="skill">DoctrineORM</div>
-                        <div class="skill">CodeSniffer</div>
-                        <div class="skill">Git</div>
-                        <div class="skill">Github</div>
-                        <div class="skill" style="margin-left: 3%">Postman</div>
-                        <div class="skill">Swagger</div>
-                        <div class="skill">Jira</div>
-                        <div class="skill">Confluence</div>
+                        <div class="role-skills">
+                            <div class="skill">PHP</div>
+                            <div class="skill">Slim</div>
+                            <div class="skill">Docker</div>
+                            <div class="skill">PHPUnit</div>
+                            <div class="skill">DoctrineORM</div>
+                            <div class="skill">CodeSniffer</div>
+                            <div class="skill">Git</div>
+                            <div class="skill">Github</div>
+                            <div class="skill">Postman</div>
+                            <div class="skill">Swagger</div>
+                            <div class="skill">Jira</div>
+                            <div class="skill">Confluence</div>
+                        </div>
                     </div>
                 </a>
 
@@ -139,7 +140,7 @@
             <div id="education">
                 <h1 class="header">Education</h1>
                 <div id=uwo class="exp-section" style="height: 50vh">
-                    <a href="https://uwo.ca/" target="_blank"><h2 class="role-title">University of Western Ontario</h2></a>
+                    <a href="https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21123&SelectedCalendar=Live&ArchiveID=" target="_blank"><h2 class="role-title">University of Western Ontario</h2></a>
                     <h3 class="role-date">Honours Specialization in Computer Science | GPA - 4.0</h3>
                     <h3 class="role-date">September 2020 - April 2025</h3>
                     <h3 class="role-date">Course Work</h3>
@@ -159,6 +160,68 @@
                         <li>Western Scholarship of Distinction ($2,500) - <span style="color:white">2020/2021</span></li>
                     </ul>
                 </div>
+            </div>
+
+            <div id="projects">
+                <h1 class="header">Projects</h1>
+                <a href="https://github.com/akwan84/fitness-tracker" target="_blank">
+                    <div class="exp-section">
+                        <div class="project-desc">
+                            <h2 class="proj-title">Fitness Tracker</h2>
+                            <ul>
+                                <li>A simple fitness tracker with a user-friendly React frontend for logging workouts and tracking exercise progress</li>
+                                <li>Built a RESTful API with Node.js and Express.js, implementing user authentication and CRUD operations on a MongoDB database</li>
+                                <li>Utilized Docker to streamline project initialization and create a consistent development environment</li>
+                            </ul>
+                            <div class="role-skills">
+                                <div class="skill proj-skill">React</div>
+                                <div class="skill proj-skill">Node.js</div>
+                                <div class="skill proj-skill">Express</div>
+                                <div class="skill proj-skill">MongoDB</div>
+                                <div class="skill proj-skill">Docker</div>
+                                <div class="skill proj-skill">Mongoose</div>
+                                <div class="skill proj-skill">CSS</div>
+                            </div>
+                        </div>
+                        <img src="weather-app.png" class="project-img">
+                    </div>
+                </a>
+                <a href="https://github.com/akwan84/weather-app" target="_blank">
+                    <div class="exp-section">
+                        <div class="project-desc">
+                            <h2 class="proj-title">Weather Application</h2>
+                            <ul>
+                                <li>A weather application to track real-time weather in a number of desired locations</li>
+                                <li>Leveraged geocoding and weather data APIs provided by OpenWeather</li>
+                                <li>Frontend created with React, and RESTful API calls made with the Axios library</li>
+                            </ul>
+                            <div class="role-skills">
+                                <div class="skill proj-skill">React</div>
+                                <div class="skill proj-skill">Axios</div>
+                                <div class="skill proj-skill">CSS</div>
+                            </div>
+                        </div>
+                        <img src="weather-app.png" class="project-img">
+                    </div>
+                </a>
+                <a href="https://github.com/akwan84/SudokuSolver" target="_blank">
+                    <div class="exp-section">
+                        <div class="project-desc">
+                            <h2 class="proj-title">Sudoku Solver</h2>
+                            <ul>
+                                <li>Sudoku solver utilizng a backtracking technique to solve an incomplete </li>
+                                <li>Leveraged geocoding and weather data APIs provided by OpenWeather</li>
+                                <li>Frontend created with React, and RESTful API calls made with the Axios library</li>
+                            </ul>
+                            <div class="role-skills">
+                                <div class="skill proj-skill">HTML</div>
+                                <div class="skill proj-skill">CSS</div>
+                                <div class="skill proj-skill">Javascript</div>
+                            </div>
+                        </div>
+                        <img src="weather-app.png" class="project-img">
+                    </div>
+                </a>
             </div>
         </div>
     </body>

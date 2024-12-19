@@ -1,9 +1,21 @@
-#inner {
-    width:60%;
-    height: 100vh;
-    margin-left: 20%;
-    margin-top: 0vh;
-    float: left;
+@media (min-width: 1400px) {
+    #inner {
+        width: 60%;
+        height: 100vh;
+        margin-left: 20%;
+        margin-top: 0vh;
+        float: left;
+    }
+}
+
+@media (max-width: 1399px) {
+    #inner {
+        width: 90%;
+        height: 100vh;
+        margin-left: 5%;
+        margin-top: 0vh;
+        float: left;
+    }
 }
 
 .navbar {
@@ -24,13 +36,12 @@
 }
 
 #resume {
-    width: 15%;
+    width: 20%;
     height: 5vh;
-    float: left;
     font-size: 1.5vh;
     line-height: 5vh;
     margin-top: 1vh;
-    margin-left: 1%;
+    margin-left: 40%;
     border: 2px solid #66fcf1;
     text-align: center;
     border-radius: 15px;
@@ -68,18 +79,12 @@
     height: 30vh;
 }
 
-#profile-pic {
-    width: 30vh;
-    height: 30vh;
-    border-radius: 50vh;
-    float: left;
-}
-
 #bio-paragraph {
     height: 30vh;
-    float: right;
-    width: 65%;
-
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
     position: relative;
     animation: flyInRight 1.5s ease-out forwards; 
 }
@@ -109,7 +114,6 @@
     margin-top: 1vh;
     width: 5vh;
     height: 5vh;
-    float: left;
     transition: transform 0.25s;
 }
 
@@ -139,7 +143,7 @@
 }
 
 .skill {
-    width: 10%;
+    width: 12%;
     height: 3vh;
     font-size: 1.5vh;
     line-height: 3vh;
@@ -151,6 +155,13 @@
     color: #66fcf1;
     font-family: "Oxanium", sans-serif;
     display: inline-block;
+}
+
+.role-skills {
+    width: 94%;
+    margin-left: 3%;
+    float: left;
+    text-align: center;
 }
 
 .subsection {
@@ -207,6 +218,10 @@
     margin-top: 15vh;
 }
 
+#projects {
+    margin-top: 15vh;
+}
+
 #uwo {
     cursor: default;
 }
@@ -225,6 +240,40 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.project-desc {
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+}
+
+.project-img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    float: left;
+    padding: 2%;
+    display: block;
+}
+
+.proj-title {
+    font-size: 3.5vh;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    width: 100%;
+    text-align: center;
+}
+
+.proj-skill {
+    width: 18%;
+}
+
+.proj-section {
+    height: 30vh;
 }
 
 @keyframes flyInRight {
